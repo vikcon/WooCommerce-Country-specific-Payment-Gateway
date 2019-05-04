@@ -15,5 +15,5 @@ function vikcon_payment_gateway_disable_country( $available_gateways ) {
     return $available_gateways;
 }
 
-add_filter( 'woocommerce_available_payment_gateways', 'wpmudra_payment_gateway_disable_country' );
+add_filter( 'woocommerce_available_payment_gateways', 'vikcon_payment_gateway_disable_country' );
 ?>
